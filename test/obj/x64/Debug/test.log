@@ -1,0 +1,38 @@
+﻿生成启动时间为 2018/12/23 星期日 16:04:47。
+     1>项目“D:\VS2017\TestLinux\test\test.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_RemoteClean:
+         Cleaning remote project directory
+       InitializeBuildStatus:
+         正在对“D:\VS2017\TestLinux\test\obj\x64\Debug\test.tlog\unsuccessfulbuild”执行 Touch 任务。
+       _ValidateSources:
+         Validating sources
+       _CopySources:
+         Copying sources remotely to '192.168.0.253'
+         Copying file 'D:\VS2017\TestLinux\test\main.cpp' to '/root/projects/TestLinux/test/main.cpp'
+       _ValidateValidArchitecture:
+         Validating architecture
+         Current project architecture 'x64' is compatible with the remote system architecture 'x64' ('x64').
+       ClCompile:
+         Starting remote build
+         Compiling sources:
+         Invoking 'g++'
+         g++ -c -x c++ /root/projects/TestLinux/test/main.cpp -I /root/projects/TestLinux/test/../../TestLinux -g2 -gdwarf-2 -o "/root/projects/TestLinux/test/obj/x64/Debug/main.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         main.cpp
+         Done compiling '/root/projects/TestLinux/test/main.cpp'
+       Link:
+         Linking objects
+         Invoking 'ld'
+         g++ -o "/root/projects/TestLinux/test/../bin/x64/Debug/test" -Wl,--no-undefined -Wl,-L/root/projects/TestLinux/bin/x64/Debug -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -Wl,-rpath=/root/projects/TestLinux/bin/x64/Debug /root/projects/TestLinux/test/obj/x64/Debug/main.o -ldynamic_library -lstatic_library
+         Done linking, output file name: '/root/projects/TestLinux/test/../bin/x64/Debug/test'
+         Copying file '/root/projects/TestLinux/test/../bin/x64/Debug/test' to 'D:\VS2017\TestLinux\test\..\bin\x64\Debug\test'
+         test.vcxproj -> D:\VS2017\TestLinux\test\..\bin\x64\Debug\test
+       FinalizeBuildStatus:
+         正在删除文件“D:\VS2017\TestLinux\test\obj\x64\Debug\test.tlog\unsuccessfulbuild”。
+         正在对“D:\VS2017\TestLinux\test\obj\x64\Debug\test.tlog\test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VS2017\TestLinux\test\test.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.92

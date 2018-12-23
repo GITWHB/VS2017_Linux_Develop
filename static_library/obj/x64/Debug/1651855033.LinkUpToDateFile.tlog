@@ -1,0 +1,1 @@
+ar -rsc  "/root/projects/TestLinux/static_library/../bin/x64/Debug/libstatic_library.a" /root/projects/TestLinux/static_library/obj/x64/Debug/static.o

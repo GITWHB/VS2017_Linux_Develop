@@ -1,0 +1,39 @@
+﻿生成启动时间为 2018/12/23 星期日 16:04:47。
+     1>项目“D:\VS2017\TestLinux\static_library\static_library.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>_RemoteClean:
+         Cleaning remote project directory
+       InitializeBuildStatus:
+         正在创建“D:\VS2017\TestLinux\static_library\obj\x64\Debug\static_library.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       _ValidateSources:
+         Validating sources
+       _CopySources:
+         Copying sources remotely to '192.168.0.253'
+         Copying file 'D:\VS2017\TestLinux\static_library\static.cpp' to '/root/projects/TestLinux/static_library/static.cpp'
+         Copying file 'D:\VS2017\TestLinux\static_library\static.h' to '/root/projects/TestLinux/static_library/static.h'
+       _ValidateValidArchitecture:
+         Validating architecture
+         Current project architecture 'x64' is compatible with the remote system architecture 'x64' ('x64').
+       ClCompile:
+         Starting remote build
+         Compiling sources:
+         Invoking 'g++'
+         g++ -c -x c++ /root/projects/TestLinux/static_library/static.cpp -g2 -gdwarf-2 -o "/root/projects/TestLinux/static_library/obj/x64/Debug/static.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         static.cpp
+         Done compiling '/root/projects/TestLinux/static_library/static.cpp'
+       Lib:
+         Archiving objects
+         Invoking 'ar'
+         ar -rsc  "/root/projects/TestLinux/static_library/../bin/x64/Debug/libstatic_library.a" /root/projects/TestLinux/static_library/obj/x64/Debug/static.o
+         Done archiving, output file name: '/root/projects/TestLinux/static_library/../bin/x64/Debug/libstatic_library.a'
+         Copying file '/root/projects/TestLinux/static_library/../bin/x64/Debug/libstatic_library.a' to 'D:\VS2017\TestLinux\static_library\..\bin\x64\Debug\libstatic_library.a'
+         static_library.vcxproj -> D:\VS2017\TestLinux\static_library\..\bin\x64\Debug\libstatic_library.a
+       FinalizeBuildStatus:
+         正在删除文件“D:\VS2017\TestLinux\static_library\obj\x64\Debug\static_library.tlog\unsuccessfulbuild”。
+         正在对“D:\VS2017\TestLinux\static_library\obj\x64\Debug\static_library.tlog\static_library.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VS2017\TestLinux\static_library\static_library.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:03.10

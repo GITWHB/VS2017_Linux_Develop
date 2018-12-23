@@ -1,0 +1,1 @@
+g++ -o "/root/projects/TestLinux/test/../bin/x64/Debug/test" -Wl,--no-undefined -Wl,-L/root/projects/TestLinux/bin/x64/Debug -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -Wl,-rpath=/root/projects/TestLinux/bin/x64/Debug /root/projects/TestLinux/test/obj/x64/Debug/main.o -ldynamic_library -lstatic_library

@@ -1,0 +1,39 @@
+﻿生成启动时间为 2018/12/23 星期日 16:04:47。
+     1>项目“D:\VS2017\TestLinux\dynamic_library\dynamic_library.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>_RemoteClean:
+         Cleaning remote project directory
+       InitializeBuildStatus:
+         正在创建“D:\VS2017\TestLinux\dynamic_library\obj\x64\Debug\dynamic_library.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       _ValidateSources:
+         Validating sources
+       _CopySources:
+         Copying sources remotely to '192.168.0.253'
+         Copying file 'D:\VS2017\TestLinux\dynamic_library\dynamic.cpp' to '/root/projects/TestLinux/dynamic_library/dynamic.cpp'
+         Copying file 'D:\VS2017\TestLinux\dynamic_library\dynamic.h' to '/root/projects/TestLinux/dynamic_library/dynamic.h'
+       _ValidateValidArchitecture:
+         Validating architecture
+         Current project architecture 'x64' is compatible with the remote system architecture 'x64' ('x64').
+       ClCompile:
+         Starting remote build
+         Compiling sources:
+         Invoking 'g++'
+         g++ -c -x c++ /root/projects/TestLinux/dynamic_library/dynamic.cpp -g2 -gdwarf-2 -o "/root/projects/TestLinux/dynamic_library/obj/x64/Debug/dynamic.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fpic -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         dynamic.cpp
+         Done compiling '/root/projects/TestLinux/dynamic_library/dynamic.cpp'
+       Link:
+         Linking objects
+         Invoking 'ld'
+         g++ -o "/root/projects/TestLinux/dynamic_library/../bin/x64/Debug/libdynamic_library.so" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -shared /root/projects/TestLinux/dynamic_library/obj/x64/Debug/dynamic.o
+         Done linking, output file name: '/root/projects/TestLinux/dynamic_library/../bin/x64/Debug/libdynamic_library.so'
+         Copying file '/root/projects/TestLinux/dynamic_library/../bin/x64/Debug/libdynamic_library.so' to 'D:\VS2017\TestLinux\dynamic_library\..\bin\x64\Debug\libdynamic_library.so'
+         dynamic_library.vcxproj -> D:\VS2017\TestLinux\dynamic_library\..\bin\x64\Debug\libdynamic_library.so
+       FinalizeBuildStatus:
+         正在删除文件“D:\VS2017\TestLinux\dynamic_library\obj\x64\Debug\dynamic_library.tlog\unsuccessfulbuild”。
+         正在对“D:\VS2017\TestLinux\dynamic_library\obj\x64\Debug\dynamic_library.tlog\dynamic_library.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VS2017\TestLinux\dynamic_library\dynamic_library.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:03.21

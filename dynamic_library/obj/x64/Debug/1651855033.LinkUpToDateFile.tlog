@@ -1,0 +1,1 @@
+g++ -o "/root/projects/TestLinux/dynamic_library/../bin/x64/Debug/libdynamic_library.so" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -shared /root/projects/TestLinux/dynamic_library/obj/x64/Debug/dynamic.o
